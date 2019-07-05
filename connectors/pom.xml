@@ -3,7 +3,7 @@
   <parent>
     <artifactId>teiid-parent</artifactId>
     <groupId>org.teiid</groupId>
-    <version>12.2.2-SNAPSHOT</version>
+    <version>12.2.2.fuse-740005</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <artifactId>connectors</artifactId>
@@ -56,7 +56,7 @@
   </dependencies>
   
   <modules>
-    <module>document-api</module>
+    <!--module>document-api</module-->
     
     <!--module>accumulo</module>
     <module>cassandra</module-->
@@ -70,8 +70,8 @@
     <module>webservice</module>
     <module>salesforce</module>
     <!--module>solr</module-->
-    <module>odata</module>
-    <module>swagger</module>
+    <!--module>odata</module>
+    <module>swagger</module-->
     <!--module>infinispan</module-->
     <module>misc</module>
     <!--module>sandbox</module-->
