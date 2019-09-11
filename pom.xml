@@ -12,7 +12,7 @@
 	<packaging>pom</packaging>
 	<name>Teiid</name>
 
-    <version>12.3.0-SNAPSHOT</version>
+    <version>12.3.0.fuse-750009</version>
 	<description>Federated SQL and XML query engine.</description>
 	<properties>		
 	    <site.url>http://teiid.io</site.url>
@@ -35,6 +35,7 @@
 
         <!-- the tests under java 11 fail with the default version -->
         <dep.plugin.jacoco.version>0.8.3</dep.plugin.jacoco.version>
+        <dep.plugin.deploy.version>2.8.2</dep.plugin.deploy.version>
         
         <!-- from syndesis.io -->
         <!-- Don't fork based on cores, doesn't work nicely in the cloud -->
@@ -63,9 +64,9 @@
         <version.cassandra-driver-core>3.7.1</version.cassandra-driver-core>
         <version.com.couchbase.client>2.4.2</version.com.couchbase.client>
         <version.com.fasterxml.aalto-xml>0.9.10</version.com.fasterxml.aalto-xml>
-        <version.com.fasterxml.jackson.core>2.9.9</version.com.fasterxml.jackson.core>
-        <version.com.fasterxml.jackson.dataformat>2.9.9</version.com.fasterxml.jackson.dataformat>
-        <version.com.fasterxml.jackson.core.jackson-databind>2.9.9.3</version.com.fasterxml.jackson.core.jackson-databind>
+        <version.com.fasterxml.jackson.core>2.9.8</version.com.fasterxml.jackson.core>
+        <version.com.fasterxml.jackson.dataformat>2.9.8</version.com.fasterxml.jackson.dataformat>
+        <version.com.fasterxml.jackson.core.jackson-databind>2.9.8</version.com.fasterxml.jackson.core.jackson-databind>
         <version.com.force.api.34>34.0.0</version.com.force.api.34>
         <version.com.force.api.41>45.1.0</version.com.force.api.41>
         <version.com.google.code.findbugs>2.0.1</version.com.google.code.findbugs>
