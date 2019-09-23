@@ -4,7 +4,7 @@
   <parent>
       <groupId>org.teiid</groupId>
       <artifactId>connectors</artifactId>
-      <version>13.0.0.fuse-750001</version>
+      <version>13.0.0.fuse-750001-redhat-00001</version>
   </parent>
   <groupId>org.teiid.connectors</groupId>
   <artifactId>odata</artifactId>
