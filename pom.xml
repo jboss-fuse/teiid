@@ -110,7 +110,7 @@
 
         
         <!-- Infinispan Translator -->
-        <version.org.infinispan>9.1.2.Final</version.org.infinispan>
+        <version.org.infinispan>10.1.1.Final</version.org.infinispan>
         <version.org.apache.lucene>5.5.0</version.org.apache.lucene>
         <version.com.squareup>4.0.3</version.com.squareup>
         
@@ -1345,12 +1345,12 @@
             <dependency>
                 <groupId>org.infinispan</groupId>
                 <artifactId>infinispan-core</artifactId>
-                <version>9.4.3.Final</version>
+                <version>10.1.1.Final</version>
             </dependency> 
             <dependency>
                 <groupId>org.infinispan</groupId>
                 <artifactId>infinispan-commons</artifactId>
-                <version>9.4.3.Final</version>       
+                <version>10.1.1.Final</version>       
             </dependency>  
             
             <dependency>
